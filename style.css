@@ -1,0 +1,627 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: serif;
+}
+/*start main*/
+.main
+{
+    background: url(img/6.jpeg) no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    animation: an 5s infinite ease-in-out;
+   transition: all 5s ease-in-out;
+}
+.main .containt
+{
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 100%;
+}
+.main .containt h3
+{
+    font-size: 250px;
+    color: white;
+    font-style: italic;
+    padding-top: 200px;
+    margin: 0;
+    margin-left: 250px;
+}
+.main .containt h2
+{
+    font-size: 40px;
+    color: white;
+    margin-left: 300px;
+}
+.main .containt h2 a
+{
+    color: orangered;
+}
+@-webkit-keyframes an
+{
+    0%{background: url(img/6.jpeg) no-repeat center center fixed;
+    background-size: cover;}
+    50%{background: url(img/8.jpg) no-repeat center center fixed;
+    background-size: cover;}
+    100%{background: url(img/9.jpg) no-repeat center center fixed;
+    background-size: cover;}
+}
+/*end main*/
+
+/*start navber*/
+.smallnavbar
+{
+    
+}
+.smallnavbar .bar
+{
+   
+    background-color: rgba(0,0,0,0.9);
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 7px;
+    z-index: 9999;
+}
+.smallnavbar .bar a i
+{
+    font-size: 30px;
+    color: white;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+.smallnavbar ul
+{
+    list-style-type: none;
+    position: sticky;
+    top: 60px;
+    width: 100%;
+    height: 88%;
+    background-color: rgba(0,0,0,0.9);
+    display: none;
+    border-radius: 7px;
+}
+.smallnavbar ul li
+{
+    width: 100%;
+    height: 10%;
+    padding: 20px 50px;
+}
+.smallnavbar ul li a
+{
+    color: darkgray;
+    font-size: 22px;
+}
+.smallnavbar ul li a:hover
+{
+    color: orangered;
+}
+.smallnavbar .bar:hover + ul
+{
+    display: block;
+    transition: all 0.5s ease-in-out;
+}
+
+.largnavbar
+{
+    top: 80%;
+    width: 100%;
+    height: 60px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin-top: 40px;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    
+}
+.largnavbar ul
+{
+    list-style-type: none;
+    width: 70%;
+    margin-left: 20%;
+}
+.largnavbar ul li
+{
+    float: left;
+    padding: 10px 20px;
+    
+}
+.largnavbar ul li h2
+{
+    font-style: italic;
+    margin-top: 0px;
+    font-size: 40px;
+    padding-top: 0px;
+}
+.largnavbar ul li a
+{
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.largnavbar ul li a:hover
+{
+    color: orangered;
+}
+/*end navber*/
+
+
+/*start about us*/
+.about
+{
+   
+}
+.about .s1,
+.about .s2
+{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.about .s1 img
+{
+    width: 100%;
+    height: 100%;
+}
+.about .s2
+{
+    background: url(img/wood_1.png) no-repeat center center;
+    background-size: cover;
+}
+.about .s2 h2
+{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.about .s2 h2:after
+{
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: orangered;
+    margin-left: 48%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.about .s2 p
+{
+    margin-left: 15%;
+    color: white;
+    width: 60%;
+    text-align: justify;
+}
+.about .s2 p span
+{
+    font-size: 70px;
+    font-style: italic; 
+}
+.about .s2 button
+{
+    border: 2px solid orangered;
+    border-radius: 6px;
+    background: transparent;
+    color: white;
+    height: 40px;
+    width: 200px;
+    margin-left: 30%;
+    margin-top: 10px;
+}
+.about .s2 button:hover
+{
+    background-color: orangered;
+    transition: all 0.5s ease-in-out;
+}
+/*end about us*/
+/*start testimonials*/
+.testimonials
+{
+    font-size: 35px;
+    clear: both;
+    margin-top: 10%;
+}
+.testimonials p
+{
+    font-size: 35px;
+
+}
+.carousel-inner .carousel-indicators  li
+{
+    border: 2px solid orangered;
+    margin-top: 20px;
+}
+/*end testimonials*/
+
+/*start our features*/
+.features
+{
+    background:url(img/wood_1.png) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    min-height: 100%;
+    clear: both;
+    padding-top: 8%;
+}
+.features h2
+{
+    color: white;
+    font-size: 60px;
+    font-style: italic;
+}
+.features h2:after
+{
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: orangered;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.features p
+{
+    color: grey;
+    margin-top: 20px;
+    font-size: 25px;
+}
+.features .row img
+{
+    width: 100%;
+    height: 100%;
+}
+.features .col-md-3, .features .col-sm-6,  .features .col-xm-12
+{
+    height: 65%;
+}
+.features h3
+{
+    color: white;
+}
+.features h4
+{
+    color: white;
+}
+.features h3:after
+{
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: orangered;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+/*end our features*/
+/*start type*/
+.type
+{
+    margin-top: 10%;
+    background: url(img/1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+}
+.type .containt
+{
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    padding-top: 10%;
+    color: white;
+    height: 100%;
+}
+/*end type*/
+
+/*start menu*/
+.menu
+{
+    margin-top: 10%;
+}
+.menu button
+{
+    border: 2px solid orangered;
+    border-radius: 6px;
+    background-color: transparent;
+    margin-top: 10%;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    color: orangered;
+}
+.menu button:hover
+{
+    background-color: orangered;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+.menu .row img
+{
+    width: 140px;
+    height: 140px;
+    border-radius: 6px;
+}
+.menu span
+{
+    float: right;
+    margin: 0px;
+}
+.menu span span
+{
+    color: orangered;
+}
+.menu h2
+{
+    color: black;
+    font-size: 50px;
+    font-style: italic;
+}
+.menu h2:after
+{
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: orangered;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.menu h3
+{
+    color: black;
+}
+
+/*end menu*/
+
+/*start event*/
+.event
+{
+    margin-top: 10%;
+    background: url(img/1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    min-height: 120%;
+    color: white;
+   
+}
+.event .containt
+{
+    background-color: rgba(0,0,0,0.6);
+    width: 100%;
+    height: 120%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.event .containt .p1
+{
+    border: 2px solid gray;
+}
+.event h2:after
+{
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: orangered;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.event button
+{
+    border: 2px solid orangered;
+    border-radius: 6px;
+    background-color: transparent;
+    margin-top: 10%;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    color: orangered;
+    margin-bottom: 40px;
+}
+.event button:hover
+{
+    background-color: orangered;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+.event .p
+{
+    background-color: white;
+    color: black;
+    margin-top: 40px;
+}
+
+/*end event*/
+
+/*start service*/
+.service
+{
+    margin-top: 10%;
+}
+.service i
+{
+    float: left;
+    font-size: 30px;
+    margin-right: 10px;
+}
+.service h2:after
+{
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: orangered;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.service .btn-primary
+{
+   background-color: orangered;
+    border-color: orangered;
+}
+.service input:focus ,
+.service textarea:focus ,
+.service select:focus
+{
+    border-color: orangered;
+}
+/*end service*/
+/*start footer*/
+.footer
+{
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
+.footer a
+{
+    color: orangered;
+}
+/*end footer*/
+
+
+@media (max-width:767px)
+{
+    .main .containt h3
+    {
+    font-size: 80px;
+    color: white;
+    font-style: italic;
+    padding-top: 150px;
+    padding-left: 20px;
+    margin: 0;
+    margin-left: 0px;
+    width: 25%;
+     }
+    .main .containt h2
+    {
+        font-size: 25px;
+        margin-left: 20%;
+    }
+    .largnavbar
+    {
+        display: none;
+    }
+    .about .s2 p
+    {
+        font-size: 10px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .about .s2 p span
+    {
+        font-size: 15px;
+    }
+    .about .s2 button
+    {
+        width: 100px;
+    }
+    .type
+{
+    width: 100%;
+    height: 140%;
+}
+    
+    .about .s1,
+    .about .s2
+    {
+    width: 100%;
+    height: 100%;
+    clear: both;
+    }
+    .about .s2
+    {
+        padding-left: 0px;
+        height: 120%;
+    }
+    .about .s2 p
+    {
+        width: 100%;
+    }
+    .event
+    {
+        min-height: 270%;
+    }
+    .testimonials
+{
+    font-size: 20px;
+}
+.testimonials p
+{
+    font-size: 20px;
+
+}
+}
+@media (max-width:992px)
+{
+    .main .containt h1
+    {
+        font-size: 120px;
+        margin-left: 5%;
+        
+    }
+    .main .containt h2
+    {
+        font-size: 35px;
+        margin-left: 10%;
+    }
+    .largnavbar
+    {
+        display: none;
+    }
+    
+     .about .s2 p
+    {
+        font-size: 15px;
+        width: 100%;
+        margin: 0px;
+    }
+    .about .s2
+    {
+        padding: 20px;
+    }
+    .about .s2 p span
+    {
+        font-size: 20px;
+    }
+    .about .s2 button
+    {
+        width: 120px;
+        margin-top: 15%;
+    }
+    .type
+{
+    width: 100%;
+    height: 170%;
+}
+    .event
+    {
+        height: 230%;
+    }
+    .event .containt
+    {
+        height: 100%;
+    }
+}
+@media (max-width:1199px)
+{
+    .largnavbar ul
+{
+    list-style-type: none;
+    width: 90%;
+    margin-left: 5%;
+}
+    
+     .about .s2 p
+    {
+        font-size: 17px;
+    }
+}
